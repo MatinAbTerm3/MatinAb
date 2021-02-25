@@ -1,0 +1,39 @@
+/*[lang = "fa"]
+{
+direction: rtl;
+text-align: right;
+}
+[lang = "en"]
+{
+direction: ltr;
+text-align: left;
+}*/
+:lang(fa)
+	{
+		direction: rtl;
+		text-align: right;
+	}
+:lang(en)
+	{
+		direction: ltr;
+		text-align: left;
+	}
+	
+.formm
+	{
+		width:25%;
+		margin:auto;
+	}
+
+.btn-primary{
+	background-color:	hsl(-10, 90%, 85%);
+	border-color:		hsl(-10, 90%, 70%);			
+}
+.btn-primary:hover{
+	background-color:	hsl(-10, 90%, 50%);
+}
+.form-control
+	{
+		border-width:  0px 0px 2px 0px;
+		border-radius: 0px;
+	}
